@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
-    <div className="text-white">
+    <section className="text-white" id="home">
       <div className="max-w-[800px] mt-[96px] h-screen w-full flex flex-col items-center mx-auto text-center">
         <p className="text-[#0adf9a] font-bold p-2">
           GROWING WITH DATA ANALYTICS
@@ -34,7 +34,7 @@ const Hero = () => {
           Get Started
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -4,6 +4,7 @@ import Analytics from './components/Analytics';
 import Cards from './components/Cards';
 import Footer from './components/Footer';
 import Newsletter from "./components/Newsletter";
+import { Routes,Route } from "react-router-dom";
 
 function App() {
 
