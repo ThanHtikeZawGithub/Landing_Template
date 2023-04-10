@@ -1,8 +1,7 @@
 import React from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll-v2";
-import { Link } from "react-router-dom";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,21 +10,21 @@ const Navbar = () => {
       <h1 className="text-3xl font-bold text-[#0adf9a]">DataLabs</h1>
       <ul className="hidden md:flex font-semibold transition-all duration-500">
         <li>
-          <a href="#home" className="p-4 cursor-pointer">
+          <AnchorLink href="#home" className="p-4 cursor-pointer">
             HOME
-          </a>
-          <a href="#company" className="p-4 cursor-pointer">
+          </AnchorLink>
+          <AnchorLink href="#company" className="p-4 cursor-pointer">
             COMPANY
-          </a>
-          <a href="#resources" className="p-4 cursor-pointer">
+          </AnchorLink>
+          <AnchorLink href="#resources" className="p-4 cursor-pointer">
             RESOURCES
-          </a>
-          <a href="#about" className="p-4 cursor-pointer">
+          </AnchorLink>
+          <AnchorLink href="#about" className="p-4 cursor-pointer">
             ABOUT
-          </a>
-          <a href="#contact" className="p-4 cursor-pointer">
+          </AnchorLink>
+          <AnchorLink href="#contact" className="p-4 cursor-pointer">
             CONTACT
-          </a>
+          </AnchorLink>
         </li>
       </ul>
       <div
